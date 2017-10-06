@@ -126,6 +126,23 @@ brew install zopfli
 brew install pkg-config libffi
 brew install pandoc
 
+# Install the rest of my stuff
+brew install apg # Random pwd generator
+brew install aspell # vim spellcheck
+brew install ctags # for vim ctags
+brew install dos2unix # file muxing
+brew install htop # better top
+brew install hub # github cmdline
+brew install ike-scan # vpn scanner
+brew install lynx # browser
+brew install mitmproxy # duh
+brew install ncftp # need it more than not
+brew install proxychains-ng # more shenanigans
+brew install tig # command line git graph
+brew install tmux # obvious
+brew install w3m # another cmdline browser
+brew install youtube-dl # useful for analysis
+
 # Lxml and Libxslt
 brew install libxml2
 brew install libxslt
