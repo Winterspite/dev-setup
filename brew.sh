@@ -159,12 +159,11 @@ brew tap caskroom/versions
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
-brew cask install --appdir="~/Applications" iterm2
+brew cask install --appdir="~/Applications" iterm2-nightly
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
 # Development tool casks
-brew cask install --appdir="/Applications" sublime-text
 brew cask install --appdir="/Applications" atom
 brew cask install --appdir="/Applications" virtualbox
 brew cask install --appdir="/Applications" vagrant
@@ -176,8 +175,23 @@ brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
-brew cask install --appdir="/Applications" evernote
-brew cask install --appdir="/Applications" 1password
+brew cask install --appdir="/Applications" bartender
+brew cask install --appdir="/Applications" caffeine
+brew cask install --appdir="/Applications" dashlane
+brew cask install --appdir="/Applications" discord
+brew cask install --appdir="/Applications" epic-games-launcher
+brew cask install --appdir="/Applications" font-inconsolata
+brew cask install --appdir="/Applications" google-drive
+brew cask install --appdir="/Applications" binary-ninja
+brew cask install --appdir="/Applications" macvim
+brew cask install --appdir="/Applications" pinta
+brew cask install --appdir="/Applications" vlc
+brew cask install --appdir="/Applications" wireshark
+brew cask install --appdir="/Applications" royal-tsx
+
+
+#brew cask install --appdir="/Applications" evernote
+#brew cask install --appdir="/Applications" 1password
 #brew cask install --appdir="/Applications" gimp
 #brew cask install --appdir="/Applications" inkscape
 
