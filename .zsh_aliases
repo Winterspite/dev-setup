@@ -1,0 +1,6 @@
+eval `gdircolors /Users/joe.barrett/gitrepos/dircolors-solarized/dircolors.256dark`
+alias prettyjson="python -m json.tool"
+alias ls="gls --color=auto"
+alias less="vimpager"
+
+alias bb="brew update && brew doctor && brew upgrade"
