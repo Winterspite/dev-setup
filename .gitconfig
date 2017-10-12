@@ -166,3 +166,9 @@
 [url "git://gist.github.com/"]
 
     insteadOf = "gist:"
+
+
+
+[user]
+	email = barrettj@gmail.com
+	name = Joe Barrett
