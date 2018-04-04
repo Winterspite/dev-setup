@@ -55,38 +55,38 @@ function runDots() {
             echo ""
             ./osx.sh
         fi
-        if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
-            # Run the pydata.sh Script
-            echo "------------------------------"
-            echo "Setting up Python data development environment."
-            echo "------------------------------"
-            echo ""
-            ./pydata.sh
-        fi
-        if [ $ARG == "aws" ] || [ $ARG == "all" ]; then
-            # Run the aws.sh Script
-            echo "------------------------------"
-            echo "Setting up AWS development environment."
-            echo "------------------------------"
-            echo ""
-            ./aws.sh
-        fi
-        if [ $ARG == "datastores" ] || [ $ARG == "all" ]; then
-            # Run the datastores.sh Script
-            echo "------------------------------"
-            echo "Setting up data stores."
-            echo "------------------------------"
-            echo ""
-            ./datastores.sh
-        fi
-        if [ $ARG == "web" ] || [ $ARG == "all" ]; then
-            # Run the web.sh Script
-            echo "------------------------------"
-            echo "Setting up JavaScript web development environment."
-            echo "------------------------------"
-            echo ""
-            ./web.sh
-        fi
+        # if [ $ARG == "pydata" ] || [ $ARG == "all" ]; then
+        #     # Run the pydata.sh Script
+        #     echo "------------------------------"
+        #     echo "Setting up Python data development environment."
+        #     echo "------------------------------"
+        #     echo ""
+        #     ./pydata.sh
+        # fi
+        # if [ $ARG == "aws" ] || [ $ARG == "all" ]; then
+        #     # Run the aws.sh Script
+        #     echo "------------------------------"
+        #     echo "Setting up AWS development environment."
+        #     echo "------------------------------"
+        #     echo ""
+        #     ./aws.sh
+        # fi
+        # if [ $ARG == "datastores" ] || [ $ARG == "all" ]; then
+        #     # Run the datastores.sh Script
+        #     echo "------------------------------"
+        #     echo "Setting up data stores."
+        #     echo "------------------------------"
+        #     echo ""
+        #     ./datastores.sh
+        # fi
+        # if [ $ARG == "web" ] || [ $ARG == "all" ]; then
+        #     # Run the web.sh Script
+        #     echo "------------------------------"
+        #     echo "Setting up JavaScript web development environment."
+        #     echo "------------------------------"
+        #     echo ""
+        #     ./web.sh
+        # fi
         # if [ $ARG == "android" ] || [ $ARG == "all" ]; then
         #     # Run the android.sh Script
         #     echo "------------------------------"
