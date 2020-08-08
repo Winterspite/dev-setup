@@ -103,7 +103,6 @@ brew install xz
 # Install other useful binaries.
 brew install ack
 brew install dark-mode
-#brew install exiv2
 brew install git
 brew install git-lfs
 brew install git-flow
@@ -148,26 +147,16 @@ brew install libxslt
 brew link libxml2 --force
 brew link libxslt --force
 
-# Install Heroku
-brew install heroku/brew/heroku
-heroku update
-
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2-nightly
 brew cask install --appdir="~/Applications" java
 brew cask install --appdir="~/Applications" xquartz
 
-# Development tool casks
-brew cask install --appdir="/Applications" atom
-brew cask install --appdir="/Applications" virtualbox
-brew cask install --appdir="/Applications" vagrant
-brew cask install --appdir="/Applications" macdown
-
 # Misc casks
+brew cask install --appdir="/Applications" goland
 brew cask install --appdir="/Applications" google-chrome
 brew cask install --appdir="/Applications" firefox
-brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" bartender
@@ -183,15 +172,6 @@ brew cask install --appdir="/Applications" pinta
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" wireshark
 brew cask install --appdir="/Applications" royal-tsx
-
-
-#brew cask install --appdir="/Applications" evernote
-#brew cask install --appdir="/Applications" 1password
-#brew cask install --appdir="/Applications" gimp
-#brew cask install --appdir="/Applications" inkscape
-
-#Remove comment to install LaTeX distribution MacTeX
-#brew cask install --appdir="/Applications" mactex
 
 # Install Docker, which requires virtualbox
 brew install docker
